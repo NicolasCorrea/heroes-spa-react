@@ -1,15 +1,17 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom';
 
 export const HeroCard = ({
   id,
   superhero,
-  publisher,
   alter_ego,
   first_appearance,
   characters,
 }) => {
   return (
-    <div className="card ms-3 animate__animated animate__fadeIn" style={{ maxWidth: 540 }}>
+    <div
+      className="card ms-3 animate__animated animate__fadeIn"
+      style={{ maxWidth: 540 }}
+    >
       <div className="row no-gutters">
         <div className="col-md-4">
           <img
